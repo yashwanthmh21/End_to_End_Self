@@ -1,0 +1,177 @@
+2025-06-21 01:09:43,164 - INFO - Loading data from data_da_product.xlsx...
+2025-06-21 01:09:43,166 - ERROR - Error loading data: [Errno 22] Invalid argument: 'data_\x0cda_product.xlsx'
+2025-06-21 01:11:21,627 - INFO - Loading data from data_da_product.xlsx...
+2025-06-21 01:11:21,630 - ERROR - Error loading data: [Errno 22] Invalid argument: 'data_\x0cda_product.xlsx'
+2025-06-21 01:12:00,917 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:12:30,402 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:12:30,527 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:12:30,527 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:12:34,403 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:12:34,404 - INFO - Starting feature engineering...
+2025-06-21 01:12:37,406 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:16:56,703 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:17:20,360 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:17:20,514 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:17:20,515 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:17:23,864 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:17:23,864 - INFO - Starting feature engineering...
+2025-06-21 01:17:26,790 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:17:53,316 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:18:17,914 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:18:18,044 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:18:18,045 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:18:20,983 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:18:20,983 - INFO - Starting feature engineering...
+2025-06-21 01:18:23,872 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:18:24,795 - INFO - Preparing data for modeling...
+2025-06-21 01:21:09,057 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:21:32,669 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:21:32,787 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:21:32,787 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:21:35,947 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:21:35,947 - INFO - Starting feature engineering...
+2025-06-21 01:21:38,416 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:21:39,383 - INFO - Preparing data for modeling...
+2025-06-21 01:21:39,586 - INFO - Class distribution in training set:
+2025-06-21 01:21:39,588 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434883
+OTC           0.302080
+UNAPPROVED    0.146948
+NDA           0.079737
+BLA           0.036352
+2025-06-21 01:21:39,589 - INFO - Class distribution in test set:
+2025-06-21 01:21:39,590 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434868
+OTC           0.302103
+UNAPPROVED    0.146966
+NDA           0.079712
+BLA           0.036351
+2025-06-21 01:21:39,590 - INFO - Train set shape: (89569, 74)
+2025-06-21 01:21:39,591 - INFO - Test set shape: (22393, 74)
+2025-06-21 01:21:39,717 - INFO - Starting model training and evaluation...
+2025-06-21 01:21:39,751 - INFO - Class mapping: {0: 'ANDA', 1: 'BLA', 2: 'NDA', 3: 'OTC', 4: 'UNAPPROVED'}
+2025-06-21 01:24:57,863 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:25:22,456 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:25:22,580 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:25:22,581 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:25:25,685 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:25:25,685 - INFO - Starting feature engineering...
+2025-06-21 01:25:28,533 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:25:29,543 - INFO - Preparing data for modeling...
+2025-06-21 01:25:29,742 - INFO - Class distribution in training set:
+2025-06-21 01:25:29,745 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434883
+OTC           0.302080
+UNAPPROVED    0.146948
+NDA           0.079737
+BLA           0.036352
+2025-06-21 01:25:29,745 - INFO - Class distribution in test set:
+2025-06-21 01:25:29,747 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434868
+OTC           0.302103
+UNAPPROVED    0.146966
+NDA           0.079712
+BLA           0.036351
+2025-06-21 01:25:29,747 - INFO - Train set shape: (89569, 74)
+2025-06-21 01:25:29,748 - INFO - Test set shape: (22393, 74)
+2025-06-21 01:25:29,883 - INFO - Starting model training and evaluation...
+2025-06-21 01:25:29,906 - INFO - Class mapping: {0: 'ANDA', 1: 'BLA', 2: 'NDA', 3: 'OTC', 4: 'UNAPPROVED'}
+2025-06-21 01:25:34,480 - INFO - Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+        ANDA       0.87      0.98      0.92      9738
+         BLA       0.95      0.78      0.86       814
+         NDA       0.82      0.40      0.54      1785
+         OTC       0.92      0.95      0.93      6765
+  UNAPPROVED       0.96      0.87      0.91      3291
+
+    accuracy                           0.90     22393
+   macro avg       0.91      0.79      0.83     22393
+weighted avg       0.90      0.90      0.89     22393
+
+2025-06-21 01:27:15,657 - INFO - Loading data from data_\fda_product.xlsx...
+2025-06-21 01:27:40,050 - INFO - Data loaded successfully with shape (111970, 9)
+2025-06-21 01:27:40,207 - INFO - Memory usage: 70.98 MB
+2025-06-21 01:27:40,208 - INFO - Starting data cleaning and preprocessing...
+2025-06-21 01:27:43,167 - INFO - Data cleaned. Final shape: (111962, 11)
+2025-06-21 01:27:43,167 - INFO - Starting feature engineering...
+2025-06-21 01:27:45,992 - INFO - Generating TF-IDF features for SUBSTANCENAME...
+2025-06-21 01:27:46,987 - INFO - Preparing data for modeling...
+2025-06-21 01:27:47,251 - INFO - Class distribution in training set:
+2025-06-21 01:27:47,255 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434883
+OTC           0.302080
+UNAPPROVED    0.146948
+NDA           0.079737
+BLA           0.036352
+2025-06-21 01:27:47,255 - INFO - Class distribution in test set:
+2025-06-21 01:27:47,258 - INFO - GROUPED_MARKETING_CATEGORY
+ANDA          0.434868
+OTC           0.302103
+UNAPPROVED    0.146966
+NDA           0.079712
+BLA           0.036351
+2025-06-21 01:27:47,259 - INFO - Train set shape: (89569, 74)
+2025-06-21 01:27:47,259 - INFO - Test set shape: (22393, 74)
+2025-06-21 01:27:47,439 - INFO - Starting model training and evaluation...
+2025-06-21 01:27:47,490 - INFO - Class mapping: {0: 'ANDA', 1: 'BLA', 2: 'NDA', 3: 'OTC', 4: 'UNAPPROVED'}
+2025-06-21 01:27:52,122 - INFO - Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+        ANDA       0.87      0.98      0.92      9738
+         BLA       0.95      0.78      0.86       814
+         NDA       0.82      0.40      0.54      1785
+         OTC       0.92      0.95      0.93      6765
+  UNAPPROVED       0.96      0.87      0.91      3291
+
+    accuracy                           0.90     22393
+   macro avg       0.91      0.79      0.83     22393
+weighted avg       0.90      0.90      0.89     22393
+
+2025-06-21 01:32:28,576 - INFO - Logistic Regression Classification Report:
+              precision    recall  f1-score   support
+
+        ANDA       0.58      0.87      0.69      9738
+         BLA       0.04      0.00      0.00       814
+         NDA       0.00      0.00      0.00      1785
+         OTC       0.66      0.64      0.65      6765
+  UNAPPROVED       0.74      0.25      0.38      3291
+
+    accuracy                           0.61     22393
+   macro avg       0.40      0.35      0.34     22393
+weighted avg       0.56      0.61      0.55     22393
+
+2025-06-21 01:32:34,960 - INFO - XGBoost Classification Report:
+              precision    recall  f1-score   support
+
+        ANDA       0.91      0.97      0.94      9738
+         BLA       0.91      0.92      0.92       814
+         NDA       0.81      0.56      0.66      1785
+         OTC       0.94      0.96      0.95      6765
+  UNAPPROVED       0.97      0.90      0.93      3291
+
+    accuracy                           0.92     22393
+   macro avg       0.91      0.86      0.88     22393
+weighted avg       0.92      0.92      0.92     22393
+
+2025-06-21 01:32:36,568 - INFO - Calculating SHAP values for Random Forest...
+2025-06-21 01:33:42,235 - INFO - 
+Training Deep Learning Model...
+2025-06-21 01:33:42,245 - INFO - GPU is not available. Using CPU for training.
+2025-06-21 01:33:42,271 - INFO - Class mapping: {0: 'ANDA', 1: 'BLA', 2: 'NDA', 3: 'OTC', 4: 'UNAPPROVED'}
+2025-06-21 01:34:29,651 - INFO - Test accuracy: 0.8697, Test loss: 0.3790
+2025-06-21 01:34:32,793 - INFO - 
+Deep Learning Classification Report:
+              precision    recall  f1-score   support
+
+        ANDA       0.86      0.96      0.91      9738
+         BLA       0.73      0.78      0.75       814
+         NDA       0.72      0.37      0.49      1785
+         OTC       0.91      0.91      0.91      6765
+  UNAPPROVED       0.89      0.80      0.85      3291
+
+    accuracy                           0.87     22393
+   macro avg       0.82      0.77      0.78     22393
+weighted avg       0.86      0.87      0.86     22393
+
+2025-06-21 01:34:33,880 - INFO - Deep Learning model saved to models/dl_model.keras
